@@ -1,0 +1,88 @@
+{
+   "nouvelles": [
+      {
+      	"titre" : "Nouveau site Web transactionnel",
+      	"article" : "Après de nombreux mois d’efforts, Frigoscommunautaire.org est ravie d’annoncer le lancement officiel de notre nouveau site Web en ligne. Ce site est entré en service le 1er février 2021 avec une nouvelle interface interactionnelle. Les membres de l’association disposent maintenant de l’avantage supplémentaire de pouvoir en tout temps donner et prendre des repas et aliments dans les différents frigos sur le territoire de Montréal. Avec ce nouveau site, les membres de Frigoscommunautaire.org bénéficient de nouvelles fonctionnalités telles que des frigos numériques affichant différents types d’information sur tous les aliments disponibles tels que le nombre de portions, les allergéniques présents et la date de péremption. Les preneurs pourront réserver des aliments en les ajoutant à leurs paniers électroniques avant de passer aux frigos pour les récupérer. Le nouveau site averti les donateurs qu’utilisent leurs propres contenants lorsqu’ils sont retournés au frigo d’origine dument nettoyés. Le nouveau site aide dans la formation des bénévoles et les supporte dans les différents flux d’information associés aux tâches de nettoyage et entretien des frigos. Ils peuvent tenir le système d’information tout à fait actualisé sur l’état (nettoyé et fonctionnel) des frigos ainsi que sur l’inventaire des aliments disponibles.",
+      },
+      {
+      	"titre" : "Nouveaux frigos arrivés",
+      	"article" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus ..."
+      },
+      {
+      	"titre" : "Nouvelle 001",
+      	"article" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus ..."
+      },
+      {
+      	"titre" : "Nouvelle 001",
+      	"article" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus ..."
+      }
+   ],
+
+
+   "guides":  [
+   	  {
+   	  	"titre" : "Nettoyage et vérifications générales",
+   	  	"contenu": "Les portes d’un réfrigérateur se ferment hermétiquement grâce aux joints en caoutchouc (généralement blancs) situées tout autour des portes. Une saleté excessive pourrait empêche les joints de bien isoler l’espace entre le cabinet et la porte de réfrigérateur, ce qui causera une fuite d’air. Cette fuite fera augmenter la température et donc surchauffer le compresseur. Une autre conséquence est que la saleté pourrait causer l’adhérence du joint, qui, s’il reste collé, pourrait déchirer lors de l’ouverture de la porte. Pour éviter tous ces tracas, prenez 5 minutes une fois par mois pour les nettoyer à l’aide d’un linge humide pour éliminer les saletés. Changer un joint de porte peut coûter plus de 150$! Des frais facilement évitables Réf :  https://service2000.ca/eviter-reparations-de-refrigerateur/",
+   	  },
+   	  {
+   	  	"titre" : "Nettoyage des serpentins  du condenseur",
+   	  	"contenu": "NULL",
+   	  },
+   	  {
+   	  	"titre" : "Dégivrage",
+   	  	"contenu": "NULL",
+   	  },
+   	  {
+   	  	"titre" : "Vérification du système de drainage",
+   	  	"contenu": "NULL",
+   	  }
+   ],
+
+
+   "bottin": [
+      {
+      	"nom" :"Michel Gagnon",
+      	"fonction" : "Gestionnaire Entretien",
+      	"email" : "michel.gagnon.967@gmail.com"
+      },
+      {
+      	"nom" :"Simon Tremblay",
+      	"fonction" : "Préposé Entretien",
+      	"email" : "stremblay3450@videotron.ca"
+      },
+      {
+      	"nom" :"Robert Roy",
+      	"fonction" : "Préposé Entretien",
+      	"email" : "robert.roy345@outlook.com"
+      },
+      {
+      	"nom" :"Fanny Côté",
+      	"fonction" : "Préposé Entretien",
+      	"email" : "fcote3450@videotron.ca"
+      },
+      {
+      	"nom" :"Robert Morin",
+      	"fonction" : "Préposé Entretien",
+      	"email" : "rrmorin3450@videotron.ca"
+      }
+   ],
+
+   "materiel" : ["Savon", "Guenilles", "Désodorisant", "Ampoules"],
+
+   "partenaires" :[
+   	{
+   		"id" : "1",
+   		"informations" : ["info-collectes"],
+   		"urlphoto" : "https://d1icd6shlvmxi6.cloudfront.net/gsc/PYTPZI/ad/0f/42/ad0f4261607f4820a8707041ade94ff0/images/accueil_service/u167.png?token=ed2bbd8c7824226880e8471d15c18dce8ff363abd361998cdf1bd005086d3b64",
+   		"url" : "https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/"
+   	},
+   	{
+   		"id" : "2",
+   		"informations" : ["2300, rue Holt, Montréal (QC) H2G 1Y4", "info@mabrasserie.com", "(514) 508-3309"],
+   		"urlphoto" : "https://d1icd6shlvmxi6.cloudfront.net/gsc/PYTPZI/ad/0f/42/ad0f4261607f4820a8707041ade94ff0/images/accueil_service/u170.png?token=4c7118ef905980cee75538529228767e9f3dddd1b8d65a42f2ad266bc80efd66",
+   		"url" : "https://mabrasserie.com/"
+   	}
+   ]
+
+}
+
