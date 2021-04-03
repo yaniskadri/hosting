@@ -74,7 +74,7 @@
       "informations": [
         "info-collectes"
       ],
-      "urlphoto": "https://d1icd6shlvmxi6.cloudfront.net/gsc/PYTPZI/ad/0f/42/ad0f4261607f4820a8707041ade94ff0/images/accueil_service/u167.png?token=ed2bbd8c7824226880e8471d15c18dce8ff363abd361998cdf1bd005086d3b64",
+      "urlphoto" : "https://raw.githubusercontent.com/yaniskadri/hosting/master/u167.png",
       "url": "https://servicesenligne2.ville.montreal.qc.ca/sel/infocollectes/"
     },
     {
@@ -84,7 +84,7 @@
         "info@mabrasserie.com",
         "(514) 508-3309"
       ],
-      "urlphoto": "https://d1icd6shlvmxi6.cloudfront.net/gsc/PYTPZI/ad/0f/42/ad0f4261607f4820a8707041ade94ff0/images/accueil_service/u170.png?token=4c7118ef905980cee75538529228767e9f3dddd1b8d65a42f2ad266bc80efd66",
+      "urlphoto" : "https://raw.githubusercontent.com/yaniskadri/hosting/master/u170.png",
       "url": "https://mabrasserie.com/"
     }
   ]
