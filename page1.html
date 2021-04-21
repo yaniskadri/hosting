@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Acceuil_service</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"> 
+	<script type="text/javascript" src ="fichier.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<div>
+			<figure class="logoContainer" id="logoContainer2">
+				<img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/u132.svg" id="logo2">
+				<figcaption>Mes frigos</figcaption>
+			</figure>
+			<figure class="logoContainer" id="logoContainer1">
+				<img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/u8.svg" id="logo1">
+				<figcaption>Public</figcaption>
+			</figure>
+
+			<h1 id = "titree">Frigoscommunautaires</h1>
+		</div>
+			<h2>Espace Entretien</h2>
+	</header>
+
+
+	<section id = "nouvelles">
+		<h3>Nouvelles</h3>
+		<div id="newsContent">
+			<article class = "nouvelle">
+				<h4><button class="modalButton" id="news0"></button></h4>
+				<p></p>
+			</article>
+			<article class = "nouvelle">
+				<h4><button class="modalButton" id="news1"></button></h4>
+				<p></p>
+			</article>
+			<article class = "nouvelle">
+				<h4><button class="modalButton" id="news2"></button></h4>
+				<p></p>
+			</article>
+			<article class = "nouvelle">
+				<h4><button class="modalButton" id="news3"></button></h4>
+				<p></p>
+			</article>	
+		</div>
+	</section>
+
+
+	<div id = "commande"> 
+		<h3>Commande du matériel</h3>
+
+		<form>
+		  <div id="items">
+			  <div class="div-number" id="input1">
+			  	<input type="number" name="item1" class="nombre" id="item0" value="0">
+			  	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" type="button"></button>
+				<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="moins" type="button"></button>
+			  	<label for="item1"></label> 
+			  </div>
+			  <div class="div-number" id="input1">
+			  	<input type="number" name="item2" class="nombre" id="item1" value="0">
+			  	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" type="button"></button>
+				<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="moins" type="button"></button>
+			  	<label for="item2"></label> 
+			  </div>
+			  <div class="div-number" id="input1">
+				<input type="number" name="item3" class="nombre" id="item2" value="0">
+			  	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" type="button"></button>
+			  	<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="moins" type="button"></button>
+			  	<label for="item3"></label> <br>
+			  </div>
+			  <div class="div-number" id="input1">
+				<input type="number" name="item4"class="nombre" id="item3" value="0">
+			  	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus" type="button"></button>
+			  	<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="moins" type="button"></button>
+			  	<label for="item4"></label> <br>
+			  </div>
+		  </div>
+
+		  <div id=Commentaires>
+		  	<label for="commentaires" id="labelCommentaires">Autres :</label> <br>
+			<input type="text" name="commentaires" id="boxCommentaires"> <br>
+		  </div>
+
+
+			<div id="buttonContainer">
+				<button type="button" class="modalButton" id="comm0">Commander</button>
+			</div>
+		</form>
+	</div>
+
+
+	<footer>
+		<div id="guides">
+			<h3>Guides d'Entretien</h3>
+			<h4><button class="modalButton"    id="guid0"></button></h4>
+			<h4><button class="modalButton"    id="guid1"></button></h4>
+			<h4><button class="modalButton"    id="guid2"></button></h4>
+			<h4><button class="modalButton"    id="guid3"></button></h4>
+		</div>
+
+		<div id="bottin">
+			<h3>Bottin</h3>
+			<div class="contact">
+				<h5></h5>
+				<p></p>
+				<button class="clipboard" onclick="clipboardCopy(this.id)"><img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/copy-content.png" id="copy-icon"></button>
+			</div>
+			<div class="contact">
+				<h5></h5>
+				<p></p>
+				<button class="clipboard" onclick="clipboardCopy()"><img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/copy-content.png" id="copy-icon"></button>
+			</div>
+			<div class="contact">
+				<h5></h5>
+				<p></p>
+				<button class="clipboard" onclick="clipboardCopy()"><img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/copy-content.png" id="copy-icon"></button>
+			</div>
+			<div class="contact">
+				<h5></h5>
+				<p></p>
+				<button class="clipboard" onclick="clipboardCopy()"><img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/copy-content.png" id="copy-icon"></button>
+			</div>
+			<div class="contact">
+				<h5></h5>
+				<p></p>
+				<button class="clipboard" onclick="clipboardCopy()"><img src="https://raw.githubusercontent.com/yaniskadri/hosting/master/imgs/copy-content.png" id="copy-icon"></button>
+			</div>		
+		</div>
+
+		<div id="partenaires">
+			<h3>Compostage et Partenaires</h3>
+			<a href="" target="_blank" class="lienImage" id="partenaire1"></a>
+			<a href="" target="_blank" class="lienImage" id="partenaire2" ></a>
+
+		</div>
+	</footer>
+
+
+
+	<div class="modal-container" id="modal-container">
+		<div class="modal-header">
+			<div class="modal-title" id="modal-title"></div>
+			<button class="button-close">&times;</button>
+		</div>
+		<div class="modal-body" id="modal-body"><p class="modal-content"></p></div>
+	</div>
+
+
+	<div class="modal-container" id="modal-container2">
+		<div class="modal-header" id="header-login">
+		<div class="modal-title" id="modal-title2"><h4>Accès à l'espace membre</h4></div>
+	</div>
+
+	<div class="modal-body" id="modal-body2">			
+		<form>	
+			<label for="username" class="labelInput">Nom d'utilisateur</label>
+			<input type="checkbox" name="benevole" id="checkBenevole" required>
+			<label for="benevole">Bénévole</label><br>
+			<input type="text" name="username" class="loginInput">	
+			<div id="errorLogin"><p>Les données saisies ne sont pas correctes</p></div>
+			<label for="password" class="labelInput">Mot De Passe</label><br>
+			<input type="password" name="password" class="loginInput">
+			</form>
+	</div>
+
+
+	<div class ="modal-footer" id="login-footer">
+		<button  id="bouton-annuler">Annuler</button>
+			<input type="submit" name="connecter" class="button" value="Connecter" id="bouton-connecter" >
+		</div>
+	</div>
+
+	<div id="overlay"></div>
+</body>
+</html>

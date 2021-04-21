@@ -1,0 +1,28 @@
+{
+	"frigo" : [
+		{
+			"nom" : "Frigo 5676", 
+			"adresse" : "2212 Rue Sainte-Catherine",
+			"date" : "20/04", 
+			"distance" : "1.1km" 
+		}, 
+		{
+			"nom" : "Frigo 1135", 
+			"adresse" : "1234 Rue Stanley",
+			"date" : "20/04", 
+			"distance" : "2.3km" 
+		}, 
+		{
+			"nom" : "Frigo 2145", 
+			"adresse" : "3313 Rue Drummond",
+			"date" : "25/04", 
+			"distance" : "2.1km" 
+		},
+		{
+			"nom" : "Frigo 2146", 
+			"adresse" : "3313 Rue Drummond",
+			"date" : "28/04", 
+			"distance" : "2.1km" 
+		}
+	]
+}
