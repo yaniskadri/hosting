@@ -24,5 +24,32 @@
 			"date" : "28/04", 
 			"distance" : "2.1km" 
 		}
+	],
+
+	"repas" : [
+		{
+			"nom" : "Lasagnes",
+			"date" : "05/05"
+		},
+		{
+			"nom" : "Paella",
+			"date" : "11/04"
+		},
+		{
+			"nom" : "Compote de Pommes",
+			"date" : "21/04"
+		},
+		{
+			"nom" : "Couscous",
+			"date" : "01/05"
+		},
+		{
+			"nom" : "Hot-Dogs",
+			"date" : "08/05"
+		},
+		{
+			"nom" : "Poulet BBQ",
+			"date" : "22/04"
+		}
 	]
 }
