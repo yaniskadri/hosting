@@ -1,0 +1,117 @@
+[
+    {
+        "id": "client_1",
+        "name": "Radio Canada",
+        "description": "Radiodifuseur public",
+        "logo": "assetsimagesclient.jpg",
+        "adresse": "1400 Boulevard René-Lévesque E, Montréal, QC H2L 2M2",
+        "personne-ressource": "James D'Amour",
+        "actif": true,
+        "etudes": [
+            {
+                "id": "client_1_etude_1",
+                "name": "Ohdio",
+                "description": "Test utilisateur",
+                "actif": true,
+                "types": [
+                    {
+                        "capture": "Capture écran"
+                    },
+                    {
+                        "capture": "Suivi du regard"
+                    }
+                ]
+            },
+            {
+                "id": "client_1_etude_2",
+                "name": "Site ICI Musique",
+                "description": "Test utilisateur",
+                "actif": true,
+                "types": [
+                    {
+                        "capture": "Capture écran"
+                    },
+                    {
+                        "capture": "Suivi du regard"
+                    },
+                    {
+                        "capture": "EEG"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "client_2",
+        "name": "Skype",
+        "description": "Communication en ligne",
+        "logo": "assetsimagesclient.jpg",
+        "adresse": "2000 Avenue McGill College, Montréal, QC H3A 3H3",
+        "personne-ressource": "Bill Gates",
+        "actif": true,
+        "etudes": [
+            {
+                "id": "client_2_etude_1",
+                "name": "Validation traduction pt",
+                "description": "Test utilisateur",
+                "actif": true,
+                "types": [
+                    {
+                        "capture": "Capture écran"
+                    },
+                    {
+                        "capture": "Suivi du regard"
+                    },
+                    {
+                        "capture": "EEG"
+                    }
+                ]
+            },
+            {
+                "id": "client_2_etude_2",
+                "name": "Partage ecran",
+                "description": "Test utilisateur",
+                "actif": true,
+                "types": [
+                    {
+                        "capture": "Capture écran"
+                    },
+                    {
+                        "capture": "Suivi du regard"
+                    },
+                    {
+                        "capture": "EEG"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "client_3",
+        "name": "Poly Mtl",
+        "description": "École Polytechnique de Montréal",
+        "logo": "assetsimagesclient.jpg",
+        "adresse": "2500 Chemin de Polytechnique, Montréal, QC H3T 1J4",
+        "personne-ressource": "Jean-Marc Robert",
+        "actif": true,
+        "etudes": [
+            {
+                "id": "client_3_etude_1",
+                "name": "Démo capture de données",
+                "description": "Test utilisateur",
+                "actif": true,
+                "types": [
+                    {
+                        "capture": "Capture écran"
+                    },
+                    {
+                        "capture": "Suivi du regard"
+                    },
+                    {
+                        "capture": "EEG"
+                    }
+                ]
+            }
+        ]
+    }
+]
